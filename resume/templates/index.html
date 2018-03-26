@@ -8,17 +8,19 @@
     <title>Eric Slyman</title>
 
     <!-- Style Sheets -->
-    <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static "semantic.min.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "resume/css/example.css" %}">
 </head>
 
 <body>
-    Sample body...
+    <h1>Sample body...</h1>
 
     <script
         src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
         crossorigin="anonymous">
     </script>
+    <script src="{% static "semantic.min.js" %}"></script>
 </body>
 
 </html>
