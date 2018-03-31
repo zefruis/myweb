@@ -1,3 +1,4 @@
 *.pyc
 myweb/__pycache__
 settings.json
+static/
