@@ -1,5 +1,0 @@
-body {
-    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(85,80,141, 0.192) 10%,rgba(114,109,168, 0.404) 40%) fixed, /* Sun from bottom left*/
-    -webkit-linear-gradient(top,  rgba(125,140,196, 0.308) 0%,rgba(160,210,219, 0.87) 100%) fixed, /* top down */
-    -webkit-linear-gradient(-45deg,  #7d8cc4 0%,#bee7e8 100%) fixed; /* TopLeft To BottomRight */
-}

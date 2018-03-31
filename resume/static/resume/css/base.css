@@ -1,0 +1,20 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right top, #051937, #084167, 
+    #006e97, #009fc4, #12d3eb);/* TopLeft To BottomRight */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Strip all excess margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}

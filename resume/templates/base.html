@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <!-- Standard Meta Stuff -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+  <!-- Site Properties -->
+  <title>Eric Slyman</title>
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" type="text/css" href="{% static "semantic.css" %}">
+  <link rel="stylesheet" type="text/css" href="{% static "resume/css/base.css" %}">
+
+    <!-- Javascript -->
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous">
+  </script>
+  <script src="{% static "semantic.js" %}"></script>
+  <script src="{% static "resume/js/base.js" %}"></script>
+
+</head>
+
+<body class="ui">
+  <!-- Main menu selector -->
+  <div class="ui inverted segment">
+  <div class="ui inverted secondary pointing menu">
+    <a id="menu-home" href="/" class="item">Home</a>
+    <a id="menu-educ" href="/education" class="item">Education</a>
+    <a id="menu-expe" href="/experince" class="item">Experince / Work</a>
+    <a id="menu-proj" href="/projects" class="item">Projects</a>
+    <a id="menu-refr" href="/refrences" class="item">Refrences</a>
+  </div>
+  </div>
+  
+  {% block content %}{% endblock content %}
+</body>
+</html>
