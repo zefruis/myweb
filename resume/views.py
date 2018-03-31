@@ -10,9 +10,9 @@ def education(request):
     context = {}
     return render(request, 'education.html', context)
 
-def experince(request):
+def experience(request):
     context = {}
-    return render(request, 'experince.html', context)
+    return render(request, 'experience.html', context)
 
 def projects(request):
     context = {}

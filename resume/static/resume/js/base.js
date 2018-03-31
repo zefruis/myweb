@@ -24,7 +24,7 @@ function activate(item) {
             $("#menu-educ").addClass('active');
             break;
 
-        case "/experince/":
+        case "/experience/":
             $("#menu-expe").addClass('active');
             break;
 
