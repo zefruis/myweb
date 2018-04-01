@@ -5,3 +5,16 @@
 #92CDCF - Cyan
 #EEEFF7 - White
 */
+
+.ui.inverted.menu .active.item {
+    background: #1c1D21;
+}
+
+.ui.inverted.pointing.menu .active.item:after {
+    opacity: 1;
+    background: #1c1D21 !important;
+}
+
+.ui.inverted.menu .active.item:hover {
+    background: #31353D;
+}
