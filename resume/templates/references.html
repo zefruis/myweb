@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block }
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{% static "resume/css/references.css" %}">
+{% endblock style %}
+
 {% block content %}
-
 <div class="ui grid container">
-
     <!-- AJ Barse -->
     <div class="four wide column">
         <div class="ui inverted vertical fluid pointing menu">
@@ -104,7 +105,7 @@
             <div class="ui list">
                 <div class="item">
                     <div class="header">Phone</div>
-                    &nbsp(360)650-4894
+                    (360)650-4894
                 </div>
                 <div class="item">
                     <div class="header">Relationship</div>
@@ -117,7 +118,5 @@
             </div>
         </div>
     </div>
-
 </div>
-
 {% endblock content %}
