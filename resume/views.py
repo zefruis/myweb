@@ -18,6 +18,6 @@ def projects(request):
     context = {}
     return render(request, 'projects.html', context)
 
-def refrences(request):
+def references(request):
     context = {}
-    return render(request, 'refrences.html', context)
+    return render(request, 'references.html', context)

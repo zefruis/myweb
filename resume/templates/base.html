@@ -14,6 +14,7 @@
   <!-- Style Sheets -->
   <link rel="stylesheet" type="text/css" href="{% static "semantic.css" %}">
   <link rel="stylesheet" type="text/css" href="{% static "resume/css/base.css" %}">
+  {% block style %}{% endblock style %}
 
     <!-- Javascript -->
   <script
@@ -23,18 +24,19 @@
   </script>
   <script src="{% static "semantic.js" %}"></script>
   <script src="{% static "resume/js/base.js" %}"></script>
+  {% block scripts %}{% endblock scripts %}
 
 </head>
 
 <body class="ui">
   <!-- Main menu selector -->
   <div class="ui inverted segment">
-  <div class="ui inverted secondary pointing menu">
+  <div style="text-align:center;" class="ui inverted secondary pointing menu">
     <a id="menu-home" href="/" class="item">Home</a>
     <a id="menu-educ" href="/education" class="item">Education</a>
     <a id="menu-expe" href="/experience" class="item">Experience / Work</a>
     <a id="menu-proj" href="/projects" class="item">Projects</a>
-    <a id="menu-refr" href="/refrences" class="item">Refrences</a>
+    <a id="menu-refr" href="/references" class="item">References</a>
   </div>
   </div>
   

@@ -1,15 +1,5 @@
 // Wait for the rest of the document to load
 $(document).ready(function() {
-
-    // Change current selected menu item
-    /*
-    $('.ui.menu a.item').on('click', function() {
-        $(this)
-            .addClass('active')
-            .siblings()
-            .removeClass('active');
-    });
-    */
    activate(window.location.pathname);
 });
 
@@ -32,7 +22,7 @@ function activate(item) {
             $("#menu-proj").addClass('active');
             break;
 
-        case "/refrences/":
+        case "/references/":
             $("#menu-refr").addClass('active');
             break;
     }
