@@ -1,6 +1,13 @@
+/*
+#1c1D21 - Black
+#31353D - Gray
+#445878 - Blue
+#92CDCF - Cyan
+#EEEFF7 - White
+*/
+
 body {
     font-size: 1rem;
-    background-image: linear-gradient(to right top, #445878, #507591, #6092a8, #76afbc, #92cdcf);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -12,4 +19,12 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+i {
+    color: #EEEFF7 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 2rem !important;
 }

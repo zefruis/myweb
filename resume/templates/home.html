@@ -1,6 +1,45 @@
 {% extends "base.html" %}
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{% static "resume/css/home.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "resume/css/home.css" %}">
+{% endblock style %}
+
 {% block content %}
+<div class="ui grid container">
+    <!-- Reference Information (Default is Brian Hutchinson) -->
+    <div class="four wide column">
+        <div class="ui vertical fluid pointing menu">
+            <a id="brian" class="active item">Brian Hutchinson</a>
+            <a id="aj" class ="item">AJ Barse</a>
+            <a id="david" class="item">David Hamiter</a>
+            <a id="russell" class="item">Russell Stetzer</a>
+        </div>
+    </div>
 
-<h1>Home</h1>
+    <div class="twelve wide stretched column">
+        <div class="ui segment">
+            <div id="ref-info" class="ui list">
+                <div class="item">
+                    <div class="header">Phone</div>
+                    <p id='phone'>360-650-4894</p>
+                </div>
+                <div class="item">
+                    <div class="header">Email</div>
+                    <p id='email'>Brian.Hutchinson@wwu.edu</p>
+                </div>
+                <div class="item">
+                    <div class="header">Relationship</div>
+                    <p id='relationship'>Research Supervisor & Computer Science Advisor</p>
+                </div>
+                <div class="item">
+                    <div class="header">Occupation</div>
+                    <p id="occupation">Computer Science Professor at WWU</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+<script src="{% static "resume/js/home.js" %}"></script>
 {% endblock content %}

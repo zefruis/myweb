@@ -17,7 +17,3 @@ def experience(request):
 def projects(request):
     context = {}
     return render(request, 'projects.html', context)
-
-def references(request):
-    context = {}
-    return render(request, 'references.html', context)

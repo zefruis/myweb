@@ -6,5 +6,4 @@ urlpatterns = [
     path('education/', views.education),
     path('experience/', views.experience),
     path('projects/', views.projects),
-    path('references/', views.references),
 ]

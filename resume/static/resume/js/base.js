@@ -21,9 +21,5 @@ function activate(item) {
         case "/projects/":
             $("#menu-proj").addClass('active');
             break;
-
-        case "/references/":
-            $("#menu-refr").addClass('active');
-            break;
     }
 }
