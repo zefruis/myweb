@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     display: inline;
+    color: #1c1D21 !important;
 }
 
 /* Strip all excess margin and padding */
@@ -22,9 +23,12 @@ body {
 }
 
 i {
-    color: #EEEFF7 !important;
     margin: 0 !important;
     padding: 0 !important;
     border: 0 !important;
-    font-size: 2rem !important;
+    font-size: 4rem !important;
+}
+
+h1 {
+    text-align: center;
 }

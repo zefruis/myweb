@@ -3,21 +3,46 @@
 
 {% block style %}
 <link rel="stylesheet" type="text/css" href="{% static "resume/css/home.css" %}">
-<link rel="stylesheet" type="text/css" href="{% static "resume/css/home.css" %}">
 {% endblock style %}
 
+{% block scripts %}
+<script src="{% static "resume/js/home.js" %}"></script>
+{% endblock scripts %}
+
 {% block content %}
+
+<!-- Photo and links to outside sites -->
 <div class="ui grid container">
-    <!-- Reference Information (Default is Brian Hutchinson) -->
+    <!-- Photo -->
+    <div class = "sixteen wide column">
+        <img class="ui centered medium rounded image" src="{% static "resume/img/eric.jpg" %}">
+    </div>
+    
+    <!-- Links -->
+    <div style='text-align:center;' class="sixteen wide column">
+        <a class="mylink" href="https://www.linkedin.com/in/ericslyman/" target="none"><i class="linkedin icon"></i></a>
+        <a class="mylink" href="https://github.com/zefruis" target="none"><i class="github square icon"></i></a>
+    </div>
+</div>
+
+<h1 class="ui header">Education</h1>
+<h1 class="ui header">Experience</h1>
+<h1 class="ui header">Projects</h1>
+<h1 class="ui header">References</h1>
+
+<!-- Reference Information (Default is Brian Hutchinson) -->
+<div class="ui grid container">
+    <!-- Menu -->
     <div class="four wide column">
         <div class="ui vertical fluid pointing menu">
-            <a id="brian" class="active item">Brian Hutchinson</a>
-            <a id="aj" class ="item">AJ Barse</a>
-            <a id="david" class="item">David Hamiter</a>
-            <a id="russell" class="item">Russell Stetzer</a>
+            <a id="brian" class="ref active item">Brian Hutchinson</a>
+            <a id="aj" class ="ref item">AJ Barse</a>
+            <a id="david" class="ref item">David Hamiter</a>
+            <a id="russell" class="ref item">Russell Stetzer</a>
         </div>
     </div>
 
+    <!-- Information -->
     <div class="twelve wide stretched column">
         <div class="ui segment">
             <div id="ref-info" class="ui list">
@@ -40,6 +65,4 @@
             </div>
         </div>
     </div>
-
-<script src="{% static "resume/js/home.js" %}"></script>
 {% endblock content %}

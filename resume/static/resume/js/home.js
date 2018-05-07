@@ -1,9 +1,10 @@
 // Wait for the rest of the document to load
 $(document).ready(function() {
     console.log('doc ready!');
+
     // Change the currently selected menu item
-    $('.ui .item').on('click', function() {
-        $('.ui .item').removeClass('active');
+    $('.ref.item').on('click', function() {
+        $('.ref.item').removeClass('active');
         $(this).addClass('active');
         changeRef($(this).attr('id'));
     });

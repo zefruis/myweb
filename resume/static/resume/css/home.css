@@ -5,3 +5,21 @@
 #92CDCF - Cyan
 #EEEFF7 - White
 */
+
+.mylink {
+    color: #1c1D21;
+}
+
+.mylink:hover {
+    color: #31353D
+}
+
+.ui.move.reveal > .content {
+    float: none;
+}
+
+.ui.centered.medium.rounded.image {
+    margin: auto !important;
+    padding: 0 !important;
+    display: block !important;
+}
