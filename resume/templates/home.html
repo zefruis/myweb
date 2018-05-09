@@ -12,12 +12,18 @@
 {% block content %}
 
 <!-- Photo and links to outside sites -->
-<div class="ui grid container">
+<div id="intro-container" class="ui grid container">
     <!-- Photo -->
-    <div class = "sixteen wide column">
-        <img class="ui centered medium rounded image" src="{% static "resume/img/eric.jpg" %}">
+    <div style="background-color: #31353D;" class ="sixteen wide column">
+        <img class="ui centered rounded large image" src="{% static "resume/img/hackathon.jpg" %}">
     </div>
     
+    <div style='text-align:center;' class="sixteen wide column">
+        <h1 class="ui header info">Eric Slyman</h1>
+        <h2 class="ui header info">slymane@wwu.edu</h2>
+        <h2 class="ui header info">360-927-7859</h2>
+    </div>
+
     <!-- Links -->
     <div style='text-align:center;' class="sixteen wide column">
         <a class="mylink" href="https://www.linkedin.com/in/ericslyman/" target="none"><i class="linkedin icon"></i></a>

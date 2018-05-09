@@ -7,19 +7,30 @@
 */
 
 .mylink {
-    color: #1c1D21;
+    color: #EEEFF7;
+    transition: .3s;
 }
 
 .mylink:hover {
-    color: #31353D
-}
-
-.ui.move.reveal > .content {
-    float: none;
+    color: #92CDCF;
+    transition: .3s;
 }
 
 .ui.centered.medium.rounded.image {
     margin: auto !important;
     padding: 0 !important;
     display: block !important;
+}
+
+#intro-container {
+    margin: 0 !important;
+    width: 100% !important;
+    background-color: #1c1D21 !important;
+    color: #EEEFF7; 
+    padding-bottom: 1em;
+}
+
+.ui.header.info {
+    color: #EEEFF7;
+    margin: 0 !important;
 }

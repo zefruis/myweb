@@ -32,3 +32,9 @@ i {
 h1 {
     text-align: center;
 }
+
+#menu-container {
+    margin: 0;
+    background: #1c1D21;
+    border-radius: 0;
+}
